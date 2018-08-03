@@ -20,20 +20,5 @@ namespace WebApplication.Controllers
         {
             return "value";
         }
-
-        // POST: api/Examples
-        public void Post([FromBody]string value)
-        {
-        }
-
-        // PUT: api/Examples/5
-        public void Put(int id, [FromBody]string value)
-        {
-        }
-
-        // DELETE: api/Examples/5
-        public void Delete(int id)
-        {
-        }
     }
 }
