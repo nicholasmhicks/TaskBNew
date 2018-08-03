@@ -22,7 +22,7 @@ namespace WebApplication.Tests.Controllers
             // Assert
             Assert.IsNotNull(result);
             Assert.AreEqual(2, result.Count());
-            Assert.AreEqual("wrong", result.ElementAt(0));
+            Assert.AreEqual("value1", result.ElementAt(0));
             Assert.AreEqual("value2", result.ElementAt(1));
         }
 
